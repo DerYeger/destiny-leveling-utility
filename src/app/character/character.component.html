@@ -1,0 +1,5 @@
+<div class="ui center aligned padded grid container">
+  <div class="ui padded row" *ngFor="let slotIn of character.slots">
+    <app-slot [slot]="slotIn">{{slotIn.name}}</app-slot>
+  </div>
+</div>
