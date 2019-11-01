@@ -124,6 +124,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "destiny-leveling-utility"
 }
