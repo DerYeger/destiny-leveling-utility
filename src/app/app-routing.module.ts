@@ -5,7 +5,7 @@ import {CharacterComponent} from './character/character.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '**',
     redirectTo: 'character',
     pathMatch: 'full'
   },

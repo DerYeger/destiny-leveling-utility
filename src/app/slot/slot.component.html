@@ -1,6 +1,6 @@
 <div class="ui red labeled input">
-  <div class="ui label" [ngClass]="slot.state">
+  <div [ngClass]="slot.state" class="ui label">
     {{slot.name}}
   </div>
-  <input type="number" [(ngModel)]="slot.power">
+  <input [(ngModel)]="slot.power" type="number">
 </div>
