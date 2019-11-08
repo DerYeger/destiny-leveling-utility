@@ -4,11 +4,10 @@ export class Slot extends OnChange {
 
   state: string = null;
 
-
   private powerField: number;
 
   constructor(
-    public name: string,
+    readonly name: string,
     power: number = 750,
   ) {
     super();

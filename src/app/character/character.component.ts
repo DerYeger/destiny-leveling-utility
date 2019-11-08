@@ -9,6 +9,7 @@ import {ModelService} from '../model/model.service';
   styleUrls: ['./character.component.scss']
 })
 export class CharacterComponent {
+
   character: Character;
 
   constructor(
