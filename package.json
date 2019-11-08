@@ -19,7 +19,6 @@
     "@angular/platform-browser": "~8.2.11",
     "@angular/platform-browser-dynamic": "~8.2.11",
     "@angular/router": "~8.2.11",
-    "on-change": "^1.6.2",
     "rxjs": "~6.4.0",
     "semantic-ui-offline": "^2.4.1-1",
     "tslib": "^1.10.0",
