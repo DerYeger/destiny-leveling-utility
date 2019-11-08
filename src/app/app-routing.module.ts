@@ -5,13 +5,21 @@ import {CharacterComponent} from './character/character.component';
 
 const routes: Routes = [
   {
-    path: '**',
-    redirectTo: 'character',
-    pathMatch: 'full'
+    path: 'hunter',
+    component: CharacterComponent
   },
   {
-    path: 'character',
+    path: 'titan',
     component: CharacterComponent
+  },
+  {
+    path: 'warlock',
+    component: CharacterComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'hunter',
+    pathMatch: 'full'
   }
 ];
 

@@ -6,6 +6,9 @@ import {SlotModule} from '../slot/slot.module';
 
 @NgModule({
   declarations: [CharacterComponent],
+  exports: [
+    CharacterComponent
+  ],
   imports: [
     CommonModule,
     SlotModule

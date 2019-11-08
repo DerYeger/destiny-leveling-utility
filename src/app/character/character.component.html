@@ -1,20 +1,22 @@
 <div class="ui three column center aligned padded stackable grid container">
-  <div class="center aligned three wide column">
-    <div *ngFor="let slotIn of character.weapons" class="ui padded row">
-      <app-slot [slot]="slotIn">{{slotIn.name}}</app-slot>
+  <div class="ui compact padded raised segment grid">
+    Weapons
+    <div *ngFor="let slot of character.weapons" class="row">
+      <app-slot [slot]="slot">{{slot.name}}</app-slot>
     </div>
   </div>
-  <div class="center aligned three wide column">
-    <div class="padded row">
+  <div class="ui compact padded raised segment grid">
+    Armor
+    <div *ngFor="let slot of character.armor" class="row">
+      <app-slot [slot]="slot">{{slot.name}}</app-slot>
+    </div>
+  </div>
+  <div class="ui compact padded raised segment grid">
+    <div class="row">
       {{character.power}} Power
     </div>
-    <div class="padded row">
+    <div class="row">
       {{character.missingPower}} missing
-    </div>
-  </div>
-  <div class="center aligned three wide column">
-    <div *ngFor="let slot of character.armor" class="ui padded row">
-      <app-slot [slot]="slot">{{slot.name}}</app-slot>
     </div>
   </div>
 </div>

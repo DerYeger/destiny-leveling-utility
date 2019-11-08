@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Slot} from '../model/Slot';
+import {Slot} from '../model/slot';
 
 @Component({
   selector: 'app-slot',
