@@ -4,15 +4,15 @@ import {OnChange} from './on-change';
 
 export class Character extends OnChange {
 
-  public power: number;
-  public missingPower: number;
+  power: number;
+  missingPower: number;
 
-  public readonly slots: Array<Slot> = [...this.weapons, ...this.armor];
+  readonly slots: Array<Slot> = [...this.weapons, ...this.armor];
 
   constructor(
-    public readonly name: string,
-    public readonly weapons: Array<Slot>,
-    public readonly armor: Array<Slot>
+    readonly name: string,
+    readonly weapons: Array<Slot>,
+    readonly armor: Array<Slot>
   ) {
     super();
     this.slots.forEach(it => it.addListener(() => this.update()));
