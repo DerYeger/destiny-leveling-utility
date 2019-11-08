@@ -7,17 +7,15 @@ export class Character extends OnChange {
   public power: number;
   public missingPower: number;
 
-  public slots: Slot[] = [...this.weapons, ...this.armor];
+  public slots: Array<Slot> = [...this.weapons, ...this.armor];
 
   constructor(
     public name: string,
-    public weapons: Slot[],
-    public armor: Slot[]
+    public weapons: Array<Slot>,
+    public armor: Array<Slot>
   ) {
     super();
-    this.slots.forEach(slot => {
-      slot.addListener(() => this.update());
-    });
+    this.slots.forEach(it => it.addListener(() => this.update()));
   }
 
   update() {
