@@ -2,5 +2,5 @@
   <div [ngClass]="slot.state" class="ui fixed label">
     {{slot.name}}
   </div>
-  <input [(ngModel)]="slot.power" type="number">
+  <input (input)="keepPowerPositive()" [(ngModel)]="slot.power" min="0" placeholder="0" type="number">
 </div>

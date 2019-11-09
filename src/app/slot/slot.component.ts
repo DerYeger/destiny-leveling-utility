@@ -13,4 +13,10 @@ export class SlotComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  keepPowerPositive() {
+    if (this.slot.power < 0) {
+      this.slot.power = 0;
+    }
+  }
 }

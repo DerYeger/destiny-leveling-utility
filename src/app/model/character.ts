@@ -28,9 +28,9 @@ export class Character extends OnChange {
 
   private updateSlotState(slot: Slot) {
     if (slot.power <= this.power - 4) {
-      slot.state = 'red';
+      slot.state = 'failed';
     } else if (slot.power >= this.power) {
-      slot.state = 'green';
+      slot.state = 'passed';
     } else if (slot.state !== null) {
       slot.state = null;
     }
