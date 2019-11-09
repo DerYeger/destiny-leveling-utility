@@ -1,8 +1,8 @@
 {
   "name": "DestinyLevelingUtility",
   "short_name": "DLU",
-  "theme_color": "#424242",
-  "background_color": "#424242",
+  "theme_color": "#242424",
+  "background_color": "#242424",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
