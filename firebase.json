@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/destiny-leveling-utility",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

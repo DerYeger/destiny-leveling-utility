@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~semantic-ui-offline/semantic.min.css';
+
+* {
+  color: #fafafa !important;
+}
+
+body {
+  background-color: #121212 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ui.item.active {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.ui.item {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.ui.segments {
+  padding: 0;
+}
+
+.ui.segment {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.ui.fixed.label {
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 7em;
+}
+
+.failed {
+  background-color: darkorange !important;
+  color: black !important;
+}
+
+.passed {
+  background-color: olivedrab !important;
+  color: black !important;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  width: 7em;
+  text-align: center !important;
+}
+
+.ui.character.label {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}

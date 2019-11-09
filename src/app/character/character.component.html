@@ -1,0 +1,29 @@
+<div class="ui compact center aligned padded grid container">
+  <div class="ui compact segments">
+    <div class="ui padded segment grid">
+      <div class="ui large labels">
+        <h3>Character</h3>
+        <div class="ui character label">
+          {{character.power}}
+          <div class="detail">Power</div>
+        </div>
+        <div class="ui character label">
+          {{character.missingPower}}
+          <div class="detail">missing</div>
+        </div>
+      </div>
+    </div>
+    <div class="ui center aligned padded segment grid">
+      <h3>Weapons</h3>
+      <div *ngFor="let slot of character.weapons" class="row">
+        <app-slot [slot]="slot">{{slot.name}}</app-slot>
+      </div>
+    </div>
+    <div class="ui center aligned padded segment grid">
+      <h3>Armor</h3>
+      <div *ngFor="let slot of character.armor" class="row">
+        <app-slot [slot]="slot">{{slot.name}}</app-slot>
+      </div>
+    </div>
+  </div>
+</div>
