@@ -1,27 +1,19 @@
 # DestinyLevelingUtility
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+DestinyLevelingUtility, or DLU, is a single page progressive web app built with Angular CLI and Semantic UI.
 
-## Development server
+## What
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+DLU calculates the power of characters based on the gear level the user has entered. It then marks slots that can be upgraded with on-level drops for a power increase.
 
-## Code scaffolding
+## Why
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Using on-level drops from the season pass or random rewards is the key to efficient and fast leveling. However, it is also easy to miss this opportunity when leveling three characters at the same time. That's where DLU comes into play.
 
-## Build
+## How
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+DLU does not require an internet connection in order to work and only stores data in the browsers localstorage. Thus, DLU is essentially an offline app that can be used on any modern device capable of installing progressive web applications.
 
-## Running unit tests
+## Where
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+DLU can be found under https://destiny.yeger.eu.
