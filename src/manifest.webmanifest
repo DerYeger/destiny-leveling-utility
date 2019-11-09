@@ -1,8 +1,8 @@
 {
-  "name": "destiny-leveling-utility",
-  "short_name": "destiny-leveling-utility",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "DestinyLevelingUtility",
+  "short_name": "DLU",
+  "theme_color": "#424242",
+  "background_color": "#424242",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
